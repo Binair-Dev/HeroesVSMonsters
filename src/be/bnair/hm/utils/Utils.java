@@ -6,7 +6,7 @@ public class Utils {
 
     public static void drawLogo()
     {
-        System.out.println(ConsoleColor.RED + "BIENVENUE DANS LE MONDE DE: " + ConsoleColor.PURPLE + "HEROES VS MONSTERS !" + ConsoleColor.RESET);
+        System.out.println(ConsoleColor.RED + "BIENVENUE DANS LE MONDE DE: " + ConsoleColor.PURPLE + "HEROES VS MONSTERS" + ConsoleColor.RESET);
         System.out.println();
     }
 
