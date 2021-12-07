@@ -41,9 +41,9 @@ public class EtreVivant {
         for (int i = 0; i < 3; i++)
         {
             tempEnd += Collections.max(enduranceList);
+            enduranceList.remove(enduranceList.indexOf(Collections.max(enduranceList)));
             tempForce += Collections.max(forceList);
-            enduranceList.remove(Collections.max(enduranceList));
-            forceList.remove(Collections.max(forceList));
+            forceList.remove(forceList.indexOf(Collections.max(forceList)));
         }
 
         setEndurance(tempEnd);

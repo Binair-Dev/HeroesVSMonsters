@@ -1,5 +1,6 @@
 package be.bnair.hm.event;
 
+import be.bnair.hm.De;
 import be.bnair.hm.Main;
 import be.bnair.hm.entities.Hero;
 import be.bnair.hm.event.imp.FightStartEvent;

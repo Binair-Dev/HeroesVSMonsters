@@ -34,7 +34,5 @@ public class WindowsUtils
             Function SetConsoleModeFunc = Function.getFunction(kernel, set);
             SetConsoleModeFunc.invoke(BOOL.class, new Object[]{hOut, dwMode});
         }
-
     }
-
 }
